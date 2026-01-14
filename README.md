@@ -1,7 +1,7 @@
 # 🏦 My Safe Bank (Mini Banking System)
 
-A mini banking management system built to practice Python **Classes (OOP)** and **Exception Handling** concepts.  
-파이썬의 **클래스(객체 지향)**와 **예외 처리** 개념을 학습하고 실습하기 위해 제작한 미니 은행 관리 시스템입니다.
+A mini banking management system built to practice Python Classes (OOP) and Exception Handling concepts.  
+파이썬의 클래스와 **예외 처리** 개념을 학습하고 실습하기 위해 제작한 미니 은행 관리 시스템입니다.
 
 ---
 
