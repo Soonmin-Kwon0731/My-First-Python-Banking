@@ -40,6 +40,7 @@ my_bank_project/
     └── manager.py         # Account Manager (계좌 관리자)
 
 
+```
 ## 📂 How to Run
 Run the following command in your terminal:
 
