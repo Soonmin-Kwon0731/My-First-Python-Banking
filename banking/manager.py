@@ -5,6 +5,8 @@ class BankManager:
         self.accounts = {}
     
     def create_account(self, acc_num, owner, acc_type):
+        if owner == "Hacker":
+            raise PermissionError("블랙리스트 고객입니다. 경찰에 신고 진행합니다.")
         if acc_num in self.accounts:
             raise ValueError('이미 있는 계좌번호입니다.')
         

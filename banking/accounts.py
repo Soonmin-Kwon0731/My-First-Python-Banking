@@ -9,13 +9,16 @@ class Account: # 기본 계좌 클래스
         self.balance += amount
         print(f'✅ {amount}원 입금 완료! (현재 잔액: {self.balance}원)')
 
+        if amount >= 50000000:
+            raise ValueError("자금 세탁 의심 거래! 국세청에 신고됩니다.")
 
     def withdraw(self,amount):
         if amount <=0:
             raise ValueError("출금액은 0보다 커야합니다.")
         if self.balance < amount:
             raise ValueError("잔액이 부족합니다.")
-        
+        if (self.balance- amount) < 1000:
+            raise ValueError(" 이럼 너무 슬픈데요....")
         self.balance -= amount
         print(f'잔액은 {self.balance}원입니다.')
 
